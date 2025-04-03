@@ -142,7 +142,7 @@ const UserForm = () => {
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-indigo-900 to-purple-900 text-white">
       <div className="w-full max-w-md p-8 bg-gray-800 rounded-xl shadow-xl">
         <h2 className="text-4xl font-semibold text-center mb-6 text-indigo-400">
-          {isLogin ? "Login to Task Manager" : "Register for Task Manager"}
+          {isLogin ? "Login to Blog Application" : "Register for Blog Application"}
         </h2>
         <form onSubmit={handleSubmit}>
           {!isLogin && (
